@@ -150,7 +150,7 @@ static int _OC_FLAGS[] = {
                           OC_OP_EXTENSION | OC_MODRM | OC_1_B_OPP, /*0x80*/
                           OC_OP_EXTENSION | OC_MODRM | OC_2_4_B_OPP, /*0x81*/
                           OC_OP_EXTENSION | OC_MODRM | OC_1_B_OPP, /*0x82*/
-                          OC_OP_EXTENSION | OC_MODRM | OC_2_4_B_OPP, /*0x83*/
+                          OC_OP_EXTENSION | OC_MODRM | OC_1_B_OPP, /*0x83*///FIX!: OC_1_B_OPP : PAST : OC_2_4_B_OPP
                           OC_MODRM | OC_DIR,  /*0x84*/
                           OC_MODRM | OC_DIR,  /*0x85*/
                           OC_MODRM | OC_DIR,  /*0x86*/

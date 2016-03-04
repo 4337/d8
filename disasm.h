@@ -16,11 +16,10 @@
 #define OC_3_B_OPP        0x00020000  /* 3 bytes opperand word,byte*/
 #define OC_UNSUPPORTED    ~(OC_MODRM | OC_DIR |\
                             OC_1_B_OPP | OC_2_4_B_OPP |\
-						    OC_REG_3LAST_BITS | OC_4_B_OPP |\
-						    OC_REG_2_B | OC_OP_EXTENSION |\
-							OC_6_B_OPP | OC_2_B_OPP |\
-							OC_3_B_OPP)/* unsupported */
-
+			    OC_REG_3LAST_BITS | OC_4_B_OPP |\
+			    OC_REG_2_B | OC_OP_EXTENSION |\
+			    OC_6_B_OPP | OC_2_B_OPP |\
+			    OC_3_B_OPP)/* unsupported */
 
 #define OC_OP_OPP8  0x00000001
 #define OC_OP_OPP32 0x00000010
@@ -38,53 +37,53 @@ typedef struct {
 #define OC_MOD_REG_ADDRESSING     0xC0
 
 typedef struct {
-		BYTE   mod:2;
-   	    BYTE   reg:3;
-		BYTE   rm:3;
+        BYTE   mod:2;
+   	BYTE   reg:3;
+	BYTE   rm:3;
 }MODRM,*PMODRM;
 
 typedef struct {
-	    BYTE   scale:2;
-	    BYTE   index:3;
-	    BYTE   base:3;
-	    DWORD  offset;
+	BYTE   scale:2;
+	BYTE   index:3;
+	BYTE   base:3;
+	DWORD  offset;
 }SIB,*PSIB;
 
 typedef struct {
-	    UCHAR op_len;
-	    DWORD total_len;
+	UCHAR op_len;
+	DWORD total_len;
 }LENGTH,*PLENGTH;
 
 #define OC_MAX_PREFIX 3
 
 typedef struct {
-	    BYTE   prefix[OC_MAX_PREFIX + 1];
-	    UCHAR  count;
+	BYTE   prefix[OC_MAX_PREFIX + 1];
+        UCHAR  count;
 }PREFIXES,*PPREFIXES;
 
 #define OC_NO_DIR_NO_SIZE 0x00
 #define OC_HAS_DIR        0x3f
 
 typedef struct {
-	    BYTE    opcode;
-	    INT     flag;
-	    struct {
-		        OPERAND  operands[OC_MAX_OPERANDS];
-		        UCHAR    count;
-	    }OPERANDS,*POPERANDS;
-	    PREFIXES prefixes;
-		MODRM    modrm;     /* optional */       
-		SIB      sib;       /* oprional */
-		BYTE     addr_mode; /* optional OC_MOD_REG_INDIRECT 0x00 || OC_MOD_1BYTE_DISPLACEMENT 0x40 || OC_MOD_4BYTE_DISPLACEMENT 0x80 || OC_MOD_REG_ADDRESSING  0xC0 */   
+	BYTE    opcode;
+	INT     flag;
+	struct {
+		 OPERAND  operands[OC_MAX_OPERANDS];
+		 UCHAR    count;
+	}OPERANDS,*POPERANDS;
+	PREFIXES prefixes;
+        MODRM    modrm;     /* optional */       
+        SIB      sib;       /* oprional */
+        BYTE     addr_mode; /* optional OC_MOD_REG_INDIRECT 0x00 || OC_MOD_1BYTE_DISPLACEMENT 0x40 || OC_MOD_4BYTE_DISPLACEMENT 0x80 || OC_MOD_REG_ADDRESSING  0xC0 */   
         LENGTH   length;    /* opcode && tot length */
         BYTE*    ip;        /* instruction pointer */
         struct {
-        	    BYTE dx_bit:1; /*dir*/
-        	    BYTE size:1;   /*size*//*depend on prefix presence*/
-        	    BYTE status:6;
-		}DS,*PDS;
-		BYTE    reg1;
-		BYTE    reg2;
+        	BYTE dx_bit:1; /*dir*/
+        	BYTE size:1;   /*size*//*depend on prefix presence*/
+        	BYTE status:6;
+	}DS,*PDS;
+	BYTE    reg1;
+	BYTE    reg2;
 }OPCODE,*POPCODE;
 
 #define OC_NO_PREFIX            0x00

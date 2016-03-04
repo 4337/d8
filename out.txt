@@ -1,0 +1,320 @@
+00]. oc.opcode:           0x89               //+
+
+     oc.length.op_len:    4 total_len: 4 
+
+01]. oc.opcode:           0xe9               //+
+
+     oc.length.op_len:    5 total_len: 9
+
+     !]. I Found JMP 0xfffece96
+
+         at ip 0x404449
+
+         op.size = 4
+
+02]. oc.opcode:           0x8d               //+
+
+     oc.length.op_len:    3 total_len: 12
+
+03]. oc.opcode:           0x8b               //+
+
+     oc.length.op_len:    2 total_len: 14
+
+04]. oc.opcode:           0x34               //+
+
+     oc.length.op_len:    2 total_len: 16
+
+     prefix:              TRUE
+
+05]. oc.opcode:           0x8d               //+
+
+     oc.length.op_len:    7 total_len: 23
+
+06]. oc.opcode:           0xeb               //+
+
+     oc.length.op_len:    2 total_len: 25
+
+     !]. I Found JMP 0x3
+
+         at ip 0x404459
+
+         op.size = 1
+
+07]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 26
+
+08]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 27
+
+09]. oc.opcode:           0x64               //+
+
+     oc.length.op_len:    1 total_len: 28
+
+     prefix:              TRUE
+
+10]. oc.opcode:           0xc7               //+
+
+     oc.length.op_len:    10 total_len: 38
+
+11]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 39
+
+12]. oc.opcode:           0xf2               //+
+
+     oc.length.op_len:    1 total_len: 40
+
+     prefix:              TRUE
+
+13]. oc.opcode:           0xae               //+
+
+     oc.length.op_len:    1 total_len: 41
+
+14]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 42
+
+15]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 43
+
+16]. oc.opcode:           0x81               //+
+
+     oc.length.op_len:    6 total_len: 49
+
+17]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 50
+
+18]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 51
+
+19]. oc.opcode:           0x66               //+
+
+     oc.length.op_len:    1 total_len: 52
+
+     prefix:              TRUE
+
+20]. oc.opcode:           0xc7               //+
+
+     oc.length.op_len:    6 total_len: 58
+
+21]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 59
+
+22]. oc.opcode:           0x66               //+
+
+     oc.length.op_len:    1 total_len: 60
+
+     prefix:              TRUE
+
+23]. oc.opcode:           0x89               //+
+
+     oc.length.op_len:    2 total_len: 62
+
+24]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 63
+
+25]. oc.opcode:           0x66               //+
+
+     oc.length.op_len:    1 total_len: 64
+
+     prefix:              TRUE
+
+26]. oc.opcode:           0x89               //+
+
+     oc.length.op_len:    3 total_len: 67
+
+27]. oc.opcode:           0x3b               //+
+
+     oc.length.op_len:    3 total_len: 70
+
+28]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 71
+
+29]. oc.opcode:           0x0b               //+
+
+     oc.length.op_len:    2 total_len: 73
+
+30]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 74
+
+31]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 75
+
+32]. oc.opcode:           0xe8               //+
+
+     oc.length.op_len:    5 total_len: 80
+
+     !]. I Found CALL 0x4c3e8
+
+         at ip 0x404490
+
+         op.size = 4
+
+33]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 81
+
+34]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 82 
+
+35]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 83
+
+36]. oc.opcode:           0xc1               //+
+
+     oc.length.op_len:    3 total_len: 86
+
+37]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 87
+
+38]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 88
+
+39]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 89
+
+40]. oc.opcode:           0x90               //+
+
+     oc.length.op_len:    1 total_len: 90
+
+41]. oc.opcode:           0xff               //+
+
+     oc.length.op_len:    2 total_len: 92
+
+42]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 93
+
+43]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 94
+
+44]. oc.opcode:           0xc7              //+
+
+     oc.length.op_len:    6 total_len: 100
+
+45]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 101
+
+46]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 102
+
+47]. oc.opcode:           0x3e              //+
+
+     oc.length.op_len:    1 total_len: 103
+
+     prefix:              TRUE
+
+48]. oc.opcode:           0x89              //+
+
+     oc.length.op_len:    7 total_len: 110
+
+49]. oc.opcode:           0x66              //+
+
+     oc.length.op_len:    1 total_len: 111
+
+     prefix:              TRUE
+
+50]. oc.opcode:           0x3e              //+
+
+     oc.length.op_len:    1 total_len: 112
+
+     prefix:              TRUE
+
+51]. oc.opcode:           0xc7              //+
+
+     oc.length.op_len:    9 total_len: 121
+
+52]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 122
+
+53]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 123
+
+54]. oc.opcode:           0x66              //+
+
+     oc.length.op_len:    1 total_len: 124
+
+     prefix:              TRUE
+
+55]. oc.opcode:           0xc7              //+
+
+     oc.length.op_len:    5 total_len: 129
+
+56]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 130
+
+57]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 131
+
+58]. oc.opcode:           0x8b              //+
+
+     oc.length.op_len:    3 total_len: 134
+
+59]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 135
+
+60]. oc.opcode:           0x3e              //+
+
+     oc.length.op_len:    1 total_len: 136
+
+     prefix:              TRUE
+
+61]. oc.opcode:           0x8b              //+
+
+     oc.length.op_len:    7 total_len: 143
+
+62]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 144
+
+63]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 145
+
+64]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 146
+
+65]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 147
+
+66]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 148
+
+67]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 149
+
+68]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 150
+
+69]. oc.opcode:           0x90              //+
+
+     oc.length.op_len:    1 total_len: 151
+

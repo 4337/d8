@@ -190,92 +190,92 @@ static int _OC_FLAGS[] = {
                           OC_1_B_OPP,                              /*0xa8*/
                           OC_4_B_OPP,                              /*0xa9*/
                           0,                                       /*0xaa stosb*/
-						  0,                                       /*0xab stosd*/
-						  0,                                       /*0xac lods*/
-						  0,                                       /*0xad*/
-						  0,                                       /*0xae*/
-						  0,                                       /*0xaf*/
-						  OC_1_B_OPP,                              /*0xb0*/
-						  OC_1_B_OPP,                              /*0xb1*/
-						  OC_1_B_OPP,                              /*0xb2*/
-						  OC_1_B_OPP,                              /*0xb3*/
-						  OC_1_B_OPP,                              /*0xb4*/
-						  OC_1_B_OPP,                              /*0xb5*/
-						  OC_1_B_OPP,                              /*0xb6*/
-						  OC_1_B_OPP,                              /*0xb7*/
-						  OC_4_B_OPP,                              /*0xb8*/
-						  OC_4_B_OPP,                              /*0xb9*/
-						  OC_4_B_OPP,                              /*0xba*/
-						  OC_4_B_OPP,                              /*0xbb*/
-						  OC_4_B_OPP,                              /*0xbc*/
-						  OC_4_B_OPP,                              /*0xbd*/
-						  OC_4_B_OPP,                              /*0xbe*/
-						  OC_4_B_OPP,                              /*0xbf*/
-						  OC_OP_EXTENSION | OC_MODRM | OC_1_B_OPP, /*0xc0*/
-						  OC_OP_EXTENSION | OC_MODRM | OC_1_B_OPP, /*0xc1*/
-						  OC_2_B_OPP,                              /*0xc2*/
-						  0,                                       /*0xc3*/
-						  OC_MODRM,                                /*0xc4*/
-						  OC_MODRM,                                /*0xc5*/
-						  OC_1_B_OPP | OC_MODRM,                   /*0xc6*/
-						  OC_2_4_B_OPP | OC_MODRM,                 /*0xc7*/
-						  OC_3_B_OPP,                              /*0xc8*///2,1
-						  0,                                       /*0xc9*/
-						  OC_2_B_OPP,                              /*0xca*/
-						  0,
-						  0,
-						  OC_1_B_OPP,                              /*0xcd*/
-						  0,
-						  0,
-						  OC_MODRM | OC_OP_EXTENSION,              /*0xd0*/
-						  OC_MODRM | OC_OP_EXTENSION,              /*0xd1*/
-						  OC_MODRM | OC_OP_EXTENSION,              /*0xd2*/
-						  OC_MODRM | OC_OP_EXTENSION,              /*0xd3*/
-						  OC_1_B_OPP,                              /*0xd4*/
-						  OC_1_B_OPP,                              /*0xd5*/
-						  0,
-						  0,
-						  OC_MODRM,                                /*0xd8*/
-						  OC_MODRM,                                /*0xd9*/
-						  OC_MODRM,                                /*0xda*/
-						  OC_MODRM,                                /*0xdb*/
-						  OC_MODRM,                                /*0xdc*/
-						  OC_MODRM,                                /*0xdd*/
-						  OC_MODRM,                                /*0xde*/
-						  OC_MODRM,                                /*0xdf*/
-						  OC_1_B_OPP,                              /*0xe0*/
-						  OC_1_B_OPP,                              /*0xe1*/
-						  OC_1_B_OPP,                              /*0xe2*/
-						  OC_1_B_OPP,                              /*0xe3*/
-						  OC_1_B_OPP,                              /*0xe4*/
-						  OC_1_B_OPP,                              /*0xe5*/
-						  OC_1_B_OPP,                              /*0xe6*/
-						  OC_1_B_OPP,                              /*0xe7*/
-						  OC_4_B_OPP,                              /*0xe8*/
-						  OC_4_B_OPP,                              /*0xe9*/
-						  OC_6_B_OPP,                              /*0xea*///2:4
-						  OC_1_B_OPP,                              /*0xeb*/
-						  0,                                       /*0xec in*/
-						  0,                                       /*0xed*/
-						  0,                                       /*0xee*/
-						  0,                                       /*0xef*/
-						  0,                                       /*0xf0 lock:*/
-						  0,                                       /*0xf1 INT1*/
-						  0,
-						  0,
-						  0,                                       /*0xf4*/
-						  0,                                       /*0xf5*/
-						  OC_MODRM | OC_OP_EXTENSION,              /*0xf6*/
-						  OC_MODRM | OC_OP_EXTENSION,              /*0xf7*/
-						  0,                                       /*0xf8 clc*/
-						  0,
-						  0,                                       /*0xfa*/
-						  0,
-						  0,
-						  0,                                       /*0xfd*/
-						  OC_MODRM | OC_OP_EXTENSION,              /*0xfe*/
-						  OC_MODRM | OC_OP_EXTENSION               /*0xff*/
-                         };
+			  0,                                       /*0xab stosd*/
+			  0,                                       /*0xac lods*/
+			  0,                                       /*0xad*/
+			  0,                                       /*0xae*/
+			  0,                                       /*0xaf*/
+			  OC_1_B_OPP,                              /*0xb0*/
+			  OC_1_B_OPP,                              /*0xb1*/
+			  OC_1_B_OPP,                              /*0xb2*/
+			  OC_1_B_OPP,                              /*0xb3*/
+			  OC_1_B_OPP,                              /*0xb4*/
+			  OC_1_B_OPP,                              /*0xb5*/
+			  OC_1_B_OPP,                              /*0xb6*/
+			  OC_1_B_OPP,                              /*0xb7*/
+			  OC_4_B_OPP,                              /*0xb8*/
+			  OC_4_B_OPP,                              /*0xb9*/
+			  OC_4_B_OPP,                              /*0xba*/
+			  OC_4_B_OPP,                              /*0xbb*/
+			  OC_4_B_OPP,                              /*0xbc*/
+			  OC_4_B_OPP,                              /*0xbd*/
+			  OC_4_B_OPP,                              /*0xbe*/
+			  OC_4_B_OPP,                              /*0xbf*/
+			  OC_OP_EXTENSION | OC_MODRM | OC_1_B_OPP, /*0xc0*/
+			  OC_OP_EXTENSION | OC_MODRM | OC_1_B_OPP, /*0xc1*/
+			  OC_2_B_OPP,                              /*0xc2*/
+			  0,                                       /*0xc3*/
+			  OC_MODRM,                                /*0xc4*/
+			  OC_MODRM,                                /*0xc5*/
+			  OC_1_B_OPP | OC_MODRM,                   /*0xc6*/
+			  OC_2_4_B_OPP | OC_MODRM,                 /*0xc7*/
+			  OC_3_B_OPP,                              /*0xc8*///2,1
+			  0,                                       /*0xc9*/
+			  OC_2_B_OPP,                              /*0xca*/
+			  0,
+			  0,
+			  OC_1_B_OPP,                              /*0xcd*/
+			  0,
+			  0,
+			  OC_MODRM | OC_OP_EXTENSION,              /*0xd0*/
+			  OC_MODRM | OC_OP_EXTENSION,              /*0xd1*/
+			  OC_MODRM | OC_OP_EXTENSION,              /*0xd2*/
+			  OC_MODRM | OC_OP_EXTENSION,              /*0xd3*/
+			  OC_1_B_OPP,                              /*0xd4*/
+			  OC_1_B_OPP,                              /*0xd5*/
+			  0,
+			  0,
+			  OC_MODRM,                                /*0xd8*/
+			  OC_MODRM,                                /*0xd9*/
+			  OC_MODRM,                                /*0xda*/
+		  	  OC_MODRM,                                /*0xdb*/
+			  OC_MODRM,                                /*0xdc*/
+			  OC_MODRM,                                /*0xdd*/
+			  OC_MODRM,                                /*0xde*/
+			  OC_MODRM,                                /*0xdf*/
+			  OC_1_B_OPP,                              /*0xe0*/
+			  OC_1_B_OPP,                              /*0xe1*/
+			  OC_1_B_OPP,                              /*0xe2*/
+			  OC_1_B_OPP,                              /*0xe3*/
+			  OC_1_B_OPP,                              /*0xe4*/
+			  OC_1_B_OPP,                              /*0xe5*/
+			  OC_1_B_OPP,                              /*0xe6*/
+			  OC_1_B_OPP,                              /*0xe7*/
+			  OC_4_B_OPP,                              /*0xe8*/
+			  OC_4_B_OPP,                              /*0xe9*/
+			  OC_6_B_OPP,                              /*0xea*///2:4
+			  OC_1_B_OPP,                              /*0xeb*/
+			  0,                                       /*0xec in*/
+			  0,                                       /*0xed*/
+			  0,                                       /*0xee*/
+			  0,                                       /*0xef*/
+			  0,                                       /*0xf0 lock:*/
+			  0,                                       /*0xf1 INT1*/
+			  0,
+			  0,
+			  0,                                       /*0xf4*/
+			  0,                                       /*0xf5*/
+			  OC_MODRM | OC_OP_EXTENSION,              /*0xf6*/
+			  OC_MODRM | OC_OP_EXTENSION,              /*0xf7*/
+			  0,                                       /*0xf8 clc*/
+			  0,
+			  0,                                       /*0xfa*/
+			  0,
+			  0,
+			  0,                                       /*0xfd*/
+			  OC_MODRM | OC_OP_EXTENSION,              /*0xfe*/
+			  OC_MODRM | OC_OP_EXTENSION               /*0xff*/
+                        };
                          
 BYTE __stdcall oc_is_prefix(OPCODE* oc) {
 	 switch(*oc->ip) {
@@ -347,136 +347,135 @@ BYTE* __stdcall oc_decode(OPCODE* oc) {
 	  if((prefix = oc_is_prefix(oc)) != OC_NO_PREFIX) {
 	  	 if(oc->prefixes.count > OC_MAX_PREFIX) {
 		    return (BYTE*)OC_INSTRUCTION_ERROR;
-	     } else {
-	       if(prefix == OC_OP_EXPANSION_PREFIX) {
-		      ++oc->ip;
-		      ++oc->length.op_len;
-		      oc->opcode = *oc->ip;
-		   }
-		   ++oc->length.op_len;
-		 }
+	          } else {
+	                if(prefix == OC_OP_EXPANSION_PREFIX) {
+		           ++oc->ip;
+		           ++oc->length.op_len;
+		           oc->opcode = *oc->ip;
+		        }
+		        ++oc->length.op_len;
+                  }
 	  } else { 	
 	          oc->flag   = _OC_FLAGS[*oc->ip];
               
-		      if(oc->flag == 0) {
+		  if(oc->flag == 0) {
 	  	         oc->length.op_len = 1;
 	          } else if(oc->flag & OC_UNSUPPORTED) {  /*unsupported*/
 	                    return (BYTE*)OC_INSTRUCTION_ERROR;
-              } else {
-              	     ++oc->length.op_len;
+                   } else {
+              	           ++oc->length.op_len;
               	     
-      	             if(oc->flag & OC_DIR) {	
-      	                oc->DS.dx_bit = oc->opcode & 0x02;
-      	                oc->DS.size   = oc->opcode & 0x01;
-      	                oc->DS.status = OC_HAS_DIR;  
-			          } else if(oc->flag & OC_REG_3LAST_BITS) {
-      	    	                oc->reg1 = oc->opcode & 0x07;
-      	    	                oc->reg2 = OC_REG2_UNUSED;
-			          } 
+      	                   if(oc->flag & OC_DIR) {	
+      	                      oc->DS.dx_bit = oc->opcode & 0x02;
+      	                      oc->DS.size   = oc->opcode & 0x01;
+      	                      oc->DS.status = OC_HAS_DIR;  
+			    } else if(oc->flag & OC_REG_3LAST_BITS) {
+      	    	                      oc->reg1 = oc->opcode & 0x07;
+      	    	                      oc->reg2 = OC_REG2_UNUSED;
+			    } 
 			
-			          if(oc->flag & OC_MODRM) {
-			             BOOL has_sib = FALSE;
+			    if(oc->flag & OC_MODRM) {
+			       BOOL has_sib = FALSE;
 			   
-	  	                 ++oc->ip;               /*ip=ModRm*/
-	  	                 ++oc->length.op_len;    /*op_len + 1*/
+	  	               ++oc->ip;               /*ip=ModRm*/
+	  	               ++oc->length.op_len;    /*op_len + 1*/
 	  	       
-			             oc->modrm.mod = (*oc->ip & 0xC0) >> 0x06;
-			             oc->modrm.reg = (*oc->ip & 0x38) >> 0x03;
-			             oc->modrm.rm  =  *oc->ip & 0x07;
-			             oc->addr_mode =  *oc->ip & 0x3F  << 0x06;
+			       oc->modrm.mod = (*oc->ip & 0xC0) >> 0x06;
+			       oc->modrm.reg = (*oc->ip & 0x38) >> 0x03;
+			       oc->modrm.rm  =  *oc->ip & 0x07;
+			       oc->addr_mode =  *oc->ip & 0x3F  << 0x06;
 			   
-		                 if( ((oc->modrm.mod == 0x00) || (oc->modrm.mod == 0x01) ||
-						     (oc->modrm.mod == 0x02)) && (oc->modrm.rm == 0x04)) {
-			             	   oc->sib.scale = (*(oc->ip + 1) & 0xC0) >> 6;    //2b
-		                       oc->sib.index = (*(oc->ip + 1) & 0x38) >> 3;    //3b
-		                       oc->sib.base  =  *(oc->ip + 1) & 0x07;          //3b
-			       	           has_sib = TRUE;
-				         }
+		              if( ((oc->modrm.mod == 0x00) || (oc->modrm.mod == 0x01) ||
+				  (oc->modrm.mod == 0x02)) && (oc->modrm.rm == 0x04)) {
+			           oc->sib.scale = (*(oc->ip + 1) & 0xC0) >> 6;    //2b
+		                   oc->sib.index = (*(oc->ip + 1) & 0x38) >> 3;    //3b
+		                   oc->sib.base  =  *(oc->ip + 1) & 0x07;          //3b
+			       	   has_sib = TRUE;
+			       }
 			    
-			             if(oc->flag & OC_OP_EXTENSION) {
-			   	            oc->reg1 = oc->modrm.rm;   
-			   	            if(oc->modrm.reg == 0x00) oc->reg2 = OC_REG2_IMM;
-			   	            //...
-			             }  
+			       if(oc->flag & OC_OP_EXTENSION) {
+			   	  oc->reg1 = oc->modrm.rm;   
+			   	  if(oc->modrm.reg == 0x00) oc->reg2 = OC_REG2_IMM;
+			   	  //...
+			       }  
 			   
-			             if(oc->addr_mode == OC_MOD_REG_INDIRECT) {  
-			                /*printf(
-							       "Mod Reg Indirect opcode: 0x%x\r\n",
-							        oc->opcode
-							      );*/
-			   	            if(oc->modrm.rm == 0x05) {     /*32-bit Displacement-Only Mode*/
-			   	               oc_getopp(oc,4,OC_OP_OPP32);	
-						    } else if(has_sib == TRUE) {
-						              ++oc->ip;            /*ip on sib*/
-									  ++oc->length.op_len;	//start from 0
-									  //printf(" reg indir sib oc:0%x len: %d ",*oc->ip,oc->length.op_len);
-									  if(oc->sib.base == 0x05) { /*Dispacement Only id mod == 00*/
-									  	 oc_getopp(oc,4,OC_OP_OPP32);
-									  }
-							}   
-			             }
+			       if(oc->addr_mode == OC_MOD_REG_INDIRECT) {  
+			          /*printf(
+				           "Mod Reg Indirect opcode: 0x%x\r\n",
+					    oc->opcode
+					   );*/
+			   	   if(oc->modrm.rm == 0x05) {     /*32-bit Displacement-Only Mode*/
+			   	      oc_getopp(oc,4,OC_OP_OPP32);	
+				   } else if(has_sib == TRUE) {
+				             ++oc->ip;            /*ip on sib*/
+					     ++oc->length.op_len;	//start from 0
+					     //printf(" reg indir sib oc:0%x len: %d ",*oc->ip,oc->length.op_len);
+					     if(oc->sib.base == 0x05) { /*Dispacement Only id mod == 00*/
+						oc_getopp(oc,4,OC_OP_OPP32);
+					     }
+				    }   
+			        }
 			   
-			             if(oc->addr_mode == OC_MOD_1BYTE_DISPLACEMENT) {
-			   	            if(has_sib == TRUE) {
-					           ++oc->ip;   //ip on sib
-					           ++oc->length.op_len;
-			                } 
-			                oc_getopp(oc,1,OC_OP_OPP8);  //oc->ip must ptr on first byte before opperand 
-	      	              }
+			        if(oc->addr_mode == OC_MOD_1BYTE_DISPLACEMENT) {
+			   	   if(has_sib == TRUE) {
+			              ++oc->ip;   //ip on sib
+			              ++oc->length.op_len;
+			           } 
+			           oc_getopp(oc,1,OC_OP_OPP8);  //oc->ip must ptr on first byte before opperand 
+	      	                }
 			   
-			              if(oc->addr_mode == OC_MOD_4BYTE_DISPLACEMENT) {
-			   	             UCHAR size = (oc_has_size_prefix(oc) == TRUE) ? 2 : 4;
-			   	             DWORD type = (size == 2) ? OC_OP_OPP16 : OC_OP_OPP32;
-			   	             if(has_sib == TRUE) {
-			   	  	            ++oc->ip;
-			   	  	            ++oc->length.op_len;
-				             }
-				             oc_getopp(oc,size,type);
-			              }
+			        if(oc->addr_mode == OC_MOD_4BYTE_DISPLACEMENT) {
+			   	   UCHAR size = (oc_has_size_prefix(oc) == TRUE) ? 2 : 4;
+			   	   DWORD type = (size == 2) ? OC_OP_OPP16 : OC_OP_OPP32;
+			   	   if(has_sib == TRUE) {
+			   	      ++oc->ip;
+			   	      ++oc->length.op_len;
+				   }
+				   oc_getopp(oc,size,type);
+			         }
 			   
-			              if(oc->addr_mode == OC_MOD_REG_ADDRESSING) {
-			              	 /*printf(
-							        " Reg Addressing mode opcode: 0x%x len: %d ",
-							         oc->opcode,
-							         oc->length.op_len
-							       ); */
-			   	             /*oc->flag = oc->flag & ~( OC_1_B_OPP | OC_2_4_B_OPP | OC_4_B_OPP | 
-							                          OC_6_B_OPP | OC_2_B_OPP | OC_3_B_OPP );*/
-							 oc->reg1 = oc->modrm.reg;
-			   	             oc->reg2 = oc->modrm.rm;    
-			              }  	  	
-		               } 
+			         if(oc->addr_mode == OC_MOD_REG_ADDRESSING) {
+			            /*printf(
+					     " Reg Addressing mode opcode: 0x%x len: %d ",
+				             oc->opcode,
+					     oc->length.op_len
+				            ); */
+			   	    /*oc->flag = oc->flag & ~( OC_1_B_OPP | OC_2_4_B_OPP | OC_4_B_OPP | 
+							       OC_6_B_OPP | OC_2_B_OPP | OC_3_B_OPP );*/
+                                    oc->reg1 = oc->modrm.reg;
+			   	    oc->reg2 = oc->modrm.rm;    
+			         }  	  	
+                              } 
 
-		 	           if(oc->flag & OC_1_B_OPP) {
-			              oc_getopp(oc,1,OC_OP_OPP8);
-		               }  
+         if(oc->flag & OC_1_B_OPP) {
+            oc_getopp(oc,1,OC_OP_OPP8);
+         }  
 			
-		 	           if(oc->flag & OC_2_4_B_OPP) {
-			              UCHAR size = (oc_has_size_prefix(oc) == TRUE) ? 2 : 4;
-			              DWORD type = (size == 2) ? OC_OP_OPP16 : OC_OP_OPP32;
-			              oc_getopp(oc,size,type);
-			           }
+         if(oc->flag & OC_2_4_B_OPP) {
+	    UCHAR size = (oc_has_size_prefix(oc) == TRUE) ? 2 : 4; 
+	    DWORD type = (size == 2) ? OC_OP_OPP16 : OC_OP_OPP32;
+	    oc_getopp(oc,size,type);
+	 }
 			
-		      	       if(oc->flag & OC_4_B_OPP) {	
-			              oc_getopp(oc,4,OC_OP_OPP32);
-			           }
+         if(oc->flag & OC_4_B_OPP) {	
+	    oc_getopp(oc,4,OC_OP_OPP32);
+         }
 			
-			           if(oc->flag & OC_6_B_OPP) {   //2:4
-			              oc_getopp(oc,2,OC_OP_OPP16);
-			              oc_getopp(oc,4,OC_OP_OPP32);
-			            }
+	 if(oc->flag & OC_6_B_OPP) {   //2:4
+	    oc_getopp(oc,2,OC_OP_OPP16);
+	    oc_getopp(oc,4,OC_OP_OPP32);
+	 }
 			
-			            if(oc->flag & OC_3_B_OPP) {  //2,1
-			               oc_getopp(oc,2,OC_OP_OPP16);
-			               oc_getopp(oc,1,OC_OP_OPP8);
-			            }
-	          }
-	          memset(&oc->prefixes.prefix,0,OC_MAX_PREFIX + 1);
-	          oc->prefixes.count = 0;
-      }
-
-	 ++oc->ip; 
-	 oc->length.total_len += oc->length.op_len;
-	 return oc->ip;
+	 if(oc->flag & OC_3_B_OPP) {  //2,1
+	    oc_getopp(oc,2,OC_OP_OPP16);
+	    oc_getopp(oc,1,OC_OP_OPP8);
+	 }
+     } 
+     memset(&oc->prefixes.prefix,0,OC_MAX_PREFIX + 1); 
+     oc->prefixes.count = 0;
+   }
+   ++oc->ip;  
+   oc->length.total_len += oc->length.op_len; 
+   return oc->ip;
 } 
 

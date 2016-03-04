@@ -279,8 +279,8 @@ static int _OC_FLAGS[] = {
                          
 BYTE __stdcall oc_is_prefix(OPCODE* oc) {
 	 switch(*oc->ip) {
-	 	    case  OC_OPERAND_SIZE_PREFIX:
-	 	    case  OC_ADDRESS_SIZE_PREFIX:
+	 	case  OC_OPERAND_SIZE_PREFIX:
+	 	case  OC_ADDRESS_SIZE_PREFIX:
 	        case  OC_LOCK_PREFIX:
 	        case  OC_REP_NENZ_PREFIX:
 	        case  OC_REP_EZ_PREFIX:
